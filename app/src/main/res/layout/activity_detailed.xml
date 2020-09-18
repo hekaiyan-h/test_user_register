@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedActivity">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.25171" />
+
+    <ImageView
+        android:id="@+id/cym2"
+        android:layout_width="194dp"
+        android:layout_height="165dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:transitionName="meishi1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline13"
+        app:layout_constraintEnd_toStartOf="@+id/guideline15"
+        app:layout_constraintStart_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cym" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="葱油拌面"
+        android:textColor="#070707"
+        android:textColorHint="#090909"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline16"
+        app:layout_constraintEnd_toStartOf="@+id/guideline15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toBottomOf="@+id/cym2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.08" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.92" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33242133" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="303dp"
+        android:layout_height="427dp"
+        android:layout_marginTop="10dp"
+        android:drawableStart="@drawable/pen"
+        android:text="葱油拌面是一道以面条、猪油、黄瓜丝、葱、姜、盐、鸡精、酱油、白糖、料酒、桂皮、大料作为食材制作而成的家常面食。通常是将煮熟的面条放上葱油一起拌着吃。也是上海招牌美食，面条有韧劲又滑爽，品种包括开洋葱油面、开洋鲜美，葱油也很香。葱油肉丝面、葱油三虾面  做法简单，材料不复杂，容易制作。只需小葱和面条，及些许配料即可完成。"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideline15"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline14"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.516" />
+</androidx.constraintlayout.widget.ConstraintLayout>
